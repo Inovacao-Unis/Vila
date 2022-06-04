@@ -2573,7 +2573,7 @@ section.big-block .client-logo {padding:10%;}
 .planet-x-left img{position: absolute;top: -10rem;left: 10rem;width: 20rem;height: 20rem;z-index: 99;-webkit-animation: floatPlanetLeft 9.35s infinite linear;animation: floatPlanetLeft 9.35s infinite linear;}
 .planet-x-left-2 img{position: absolute;top: -10rem;left: 10rem;width: 20rem;height: 20rem;z-index: 99;-webkit-animation: floatPlanetLeft 22.35s infinite linear;animation: floatPlanetLeft 22.35s infinite linear;}
 .planet-x-left-3 img{position: absolute;top: -10rem;left: 10rem;width: 20rem;height: 20rem;z-index: 99;-webkit-animation: floatPlanetLeft 2.35s infinite linear;animation: floatPlanetLeft 2.35s infinite linear;}
-.planet-x-right img{position: absolute;top: 140rem;right: 10rem;width: 20rem;height: 20rem;z-index: 99;-webkit-animation: floatPlanetRight 4.65s infinite linear;animation: floatPlanetRight 4.65s infinite linear;}
+.planet-x-right img{position: absolute;top: 100rem;right: 10rem;width: 20rem;height: 20rem;z-index: 99;-webkit-animation: floatPlanetRight 4.65s infinite linear;animation: floatPlanetRight 4.65s infinite linear;}
 .planet-x-right-2 img{position: absolute;top: 20rem;right: 10rem;width: 20rem;height: 20rem;z-index: 99;-webkit-animation: floatPlanetRight 15.65s infinite linear;animation: floatPlanetRight 15.65s infinite linear;}
 .planet-x-right-3 img{position: absolute;top: 10cm;right: 7rem;width: 20rem;height: 20rem;z-index: 97;-webkit-animation: floatPlanetRight 15.65s infinite linear;animation: floatPlanetRight 15.65s infinite linear;}
 
