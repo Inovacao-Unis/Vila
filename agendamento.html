@@ -30,359 +30,163 @@
 <!--== Wrapper Start ==-->
 <div class="wrapper">
 
+	<!--== Header Start ==-->
+  <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full no-border">
+  	<!--== Start Top Search ==-->
+    <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close" id="fullscreen-close-button"><i class="icofont icofont-close"></i></a>
+      <div id="fullscreen-search-wrapper">
+        <form method="get" id="fullscreen-searchform">
+          <input type="text" value="" placeholder="Digite e aperte enter..." id="fullscreen-search-input" class="search-bar-top">
+          <i class="fullscreen-search-icon icofont icofont-search">
+          <input value="" type="submit">
+          </i>
+        </form>
+      </div>
+    </div>
+    <!--== End Top Search ==-->
+    <div class="container">
+      <!--== Start Atribute Navigation ==-->
+      <div class="attr-nav hidden-xs sm-display-none">
+        <ul>
+          <li class="side-menu"><a href="#"><i class="icofont icofont-navigation-menu"></i></a></li>
+          <li class="search"><a href="#" id="search-button"><i class="icofont icofont-search"></i></a></li>
+        </ul>
+      </div>
+      <!--== End Atribute Navigation ==-->
 
-  <!--== Coming Soon Start ==-->
-  <div class="remove-padding transition-none">
-    <div id="rev_slider_152_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="coming-soon" data-source="gallery" style="background-color:#222222;padding:0px;">
-    <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
-    	<div id="rev_slider_152_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
-    <ul>	<!-- SLIDE  -->
-    	<li data-index="rs-414" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-    		<!-- MAIN IMAGE -->
-    		<img src="assets/images/background/comingsoon-bg.jpeg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="20000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-    		<!-- LAYERS -->
+      <!--== Start Header Navigation ==-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="tr-icon ion-android-menu"></i> </button>
+        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="assets/images/Logo2.png" alt=""> <img class="logo logo-scrolled" src="assets/images/Logo3.png" alt=""> </a> </div>
+      </div>
+      <!--== End Header Navigation ==-->
 
-    		<!-- LAYER NR. 1 -->
-        <div class="hero-text-wrap gradient-overlay-transparent">
-    		<div class="tp-caption   tp-resizeme"
-    			 id="slide-414-layer-1"
-    			 data-x="['left','left','left','left']" data-hoffset="['100','50','50','30']"
-    			 data-y="['top','top','top','top']" data-voffset="['150','50','50','30']"
-    						data-width="none"
-    			data-height="none"
-    			data-whitespace="nowrap"
+      <!--== Collect the nav links, forms, and other content for toggling ==-->
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">          
+          <li><a class="page-scroll" href="#feature">Nossos Serviços</a></li>
+          <li><a class="new-page" href="https://inova.uaiinovei.com.br/">Plataforma UaiInovei</a></li>          
+          <li><a class="page-scroll" href="#about">Notícias</a></li>
+          <li><a class="new-page" href="https://certificado.uaiinovei.com.br/">Certificados</a></li>
+          <li><a class="new-page" href="agendamento.html">Agendamentos</a></li>
+        </ul>
+      </div>
+      <!--== /.navbar-collapse ==-->
+    </div>
 
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
+    <!-- Start Side Menu -->
+    <div class="side dark-bg">
+      <a href="#" class="close-side"><i class="icofont icofont-close"></i></a>
+    		<a href="index.html" class="logo-side"><img src="assets/images/Logo4.png" alt="side-logo"/></a>
+            <div class="widget mt-10">
+              <ul class="link">
+                <li class="link-item"><a class="page-scroll" href="#home">Página Inicial</a></li>
+                <li class="link-item"><a class="page-scroll" href="#feature">Nossos Serviços</a></li>
+                <li class="link-item"><a class="page-scroll" href="https://inova.uaiinovei.com.br/">Plataforma UaiInovei</a></li>                
+                <li class="link-item"><a class="page-scroll" href="#about">Notícias</a></li>
+                <li class="link-item"><a class="page-scroll" href="https://certificado.uaiinovei.com.br/">Certificados</a></li>
+                <li class="link-item"><a class="page-scroll" href="agendamento.html">Agendamentos</a></li>
+              </ul>
+            </div>
+            <ul class="social-media">
+              <li><a href="#" class="icofont icofont-social-facebook"></a></li>
+              <li><a href="#" class="icofont icofont-social-twitter"></a></li>                            
+              <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
+            </ul>
+     </div>
+     <!-- End Side Menu -->
 
-    			data-frames='[{"delay":300,"speed":2000,"frame":"0","from":"x:left;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['inherit','inherit','inherit','inherit']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-    			data-blendmode="screen"
+  </nav>
+  <!--== Header End ==-->
 
-    			style="z-index: 5; white-space: nowrap; font-size: 30px; line-height: 30px; font-weight: 700; color: #fff;font-family: 'Montserrat', sans-serif;">Em Breve os Agendamentos por Aqui </div>
-
-    		<!-- LAYER NR. 2 -->
-    		<div class="tp-caption   tp-resizeme"
-    			 id="slide-414-layer-2"
-    			 data-x="['left','left','left','left']" data-hoffset="['100','50','50','30']"
-    			 data-y="['top','top','top','top']" data-voffset="['200','150','150','120']"
-    						data-fontsize="['100','100','100','70']"
-    			data-lineheight="['100','100','100','70']"
-    			data-width="none"
-    			data-height="none"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":400,"speed":2000,"frame":"0","from":"x:left;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['inherit','inherit','inherit','inherit']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-
-    			style="z-index: 6; white-space: nowrap; font-size: 100px; line-height: 100px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family: 'Montserrat', sans-serif;letter-spacing:-5px;">LAUNCHING </div>
-
-    		<!-- LAYER NR. 3 -->
-    		<div class="tp-caption   tp-resizeme"
-    			 id="slide-414-layer-3"
-    			 data-x="['left','left','left','left']" data-hoffset="['100','50','50','30']"
-    			 data-y="['top','top','top','top']" data-voffset="['290','240','240','190']"
-    						data-fontsize="['100','100','100','70']"
-    			data-lineheight="['100','100','100','70']"
-    			data-width="none"
-    			data-height="none"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"x:left;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['inherit','inherit','inherit','inherit']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-
-    			style="z-index: 7; white-space: nowrap; font-size: 100px; line-height: 100px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family: 'Montserrat', sans-serif;letter-spacing:-5px;">VERY SOON. </div>
-
-    		<!-- LAYER NR. 4 -->
-    		<div class="tp-caption   tp-resizeme"
-
-    			 data-x="['left','left','left','left']" data-hoffset="['60','-20','0','15']"
-    			 data-y="['top','top','top','top']" data-voffset="['450','380','380','220']"
-    						data-fontsize="['200','150','100','70']"
-    			data-width="['300','300','200','100']"
-    			data-height="none"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"x:left;rX:45deg;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-    			data-blendmode="screen"
-
-    			style="z-index: 8; min-width: 300px; max-width: 300px; white-space: nowrap; font-size: 200px; line-height: 200px; font-weight: 600; color:#F5325C;font-family: 'Montserrat', sans-serif;letter-spacing:-5px;"
-    			id="t_days">00 </div>
-
-    		<!-- LAYER NR. 5 -->
-    		<div class="tp-caption   tp-resizeme"
-
-    			 data-x="['left','left','left','left']" data-hoffset="['330','200','150','115']"
-    			 data-y="['top','top','top','top']" data-voffset="['450','380','380','220']"
-    						data-fontsize="['200','150','100','70']"
-    			data-width="['300','300','200','100']"
-    			data-height="none"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"x:left;rX:45deg;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-    			data-blendmode="screen"
-
-    			style="z-index: 9; min-width: 300px; max-width: 300px; white-space: nowrap; font-size: 200px; line-height: 200px; font-weight: 700; color:#F5325C;font-family: 'Montserrat', sans-serif;letter-spacing:-5px;"
-    			id="t_hourss">00 </div>
-
-    		<!-- LAYER NR. 6 -->
-    		<div class="tp-caption   tp-resizeme"
-
-
-    			 data-x="['left','left','left','left']" data-hoffset="['600','420','300','215']"
-    			 data-y="['top','top','top','top']" data-voffset="['450','380','380','220']"
-    						data-fontsize="['200','150','100','70']"
-    			data-width="['300','300','200','100']"
-    			data-height="none"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"x:left;rX:45deg;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-    			data-blendmode="screen"
-
-    			style="z-index: 10; min-width: 300px; max-width: 300px; white-space: nowrap; font-size: 200px; line-height: 200px; font-weight: 700; color:#F5325C;font-family: 'Montserrat', sans-serif;letter-spacing:-5px;"
-    			id="t_minutes">00 </div>
-
-    		<!-- LAYER NR. 7 -->
-    		<div class="tp-caption   tp-resizeme"
-
-    			 data-x="['left','left','left','left']" data-hoffset="['870','640','450','315']"
-    			 data-y="['top','top','top','top']" data-voffset="['450','380','380','220']"
-    						data-fontsize="['200','150','100','70']"
-    			data-width="['300','300','200','100']"
-    			data-height="none"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"x:left;rX:45deg;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-    			data-blendmode="screen"
-
-    			style="z-index: 11; min-width: 300px; max-width: 300px; white-space: nowrap; font-size: 200px; line-height: 200px; font-weight: 700; color:#F5325C;font-family: 'Montserrat', sans-serif;letter-spacing:-5px;"
-    			id="t_seconds">00 </div>
-
-    		<!-- LAYER NR. 8 -->
-    		<div class="tp-caption   tp-resizeme"
-    			 id="slide-414-layer-6"
-    			 data-x="['left','left','left','left']" data-hoffset="['60','-20','0','15']"
-    			 data-y="['top','top','top','top']" data-voffset="['520','460','460','300']"
-    						data-fontsize="['25','25','20','15']"
-    			data-width="['300','300','200','100']"
-    			data-height="none"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":1600,"speed":2000,"frame":"0","from":"x:left;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-
-    			style="z-index: 12; min-width: 300px; max-width: 300px; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family: 'Montserrat', sans-serif;">DAYS </div>
-
-    		<!-- LAYER NR. 9 -->
-    		<div class="tp-caption   tp-resizeme"
-    			 id="slide-414-layer-9"
-    			 data-x="['left','left','left','left']" data-hoffset="['330','200','150','115']"
-    			 data-y="['top','top','top','top']" data-voffset="['520','460','460','300']"
-    						data-fontsize="['25','25','20','15']"
-    			data-width="['300','300','200','100']"
-    			data-height="none"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"x:left;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-
-    			style="z-index: 13; min-width: 300px; max-width: 300px; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family: 'Montserrat', sans-serif;">HOURS </div>
-
-    		<!-- LAYER NR. 10 -->
-    		<div class="tp-caption   tp-resizeme"
-    			 id="slide-414-layer-11"
-    			 data-x="['left','left','left','left']" data-hoffset="['600','420','301','215']"
-    			 data-y="['top','top','top','top']" data-voffset="['520','460','460','300']"
-    						data-fontsize="['25','25','20','15']"
-    			data-width="['300','300','200','100']"
-    			data-height="none"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"x:left;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-
-    			style="z-index: 14; min-width: 300px; max-width: 300px; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family: 'Montserrat', sans-serif;">MINUTES </div>
-
-    		<!-- LAYER NR. 11 -->
-    		<div class="tp-caption   tp-resizeme"
-    			 id="slide-414-layer-13"
-    			 data-x="['left','left','left','left']" data-hoffset="['870','640','450','315']"
-    			 data-y="['top','top','top','top']" data-voffset="['520','460','460','300']"
-    						data-fontsize="['25','25','20','15']"
-    			data-width="['300','300','200','100']"
-    			data-height="none"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"x:left;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-
-    			style="z-index: 15; min-width: 300px; max-width: 300px; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family: 'Montserrat', sans-serif;">SECONDS </div>
-
-    		<!-- LAYER NR. 12 -->
-    		<a class="tp-caption   tp-resizeme" id="slide-414-layer-16"
-    			 data-x="['left','left','left','left']" data-hoffset="['100','50','50','30']"
-    			 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','50','30']"
-    						data-width="60"
-    			data-height="60"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-actions=''
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":2000,"speed":1000,"frame":"0","from":"y:50px;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power2.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(59, 89, 152, 1.00);bc:rgba(59, 89, 152, 1.00);"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-
-    			style="z-index: 16; min-width: 60px; max-width: 60px; max-width: 60px; max-width: 60px; white-space: nowrap; font-size: 20px; line-height: 60px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family: 'Montserrat', sans-serif;border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px 2px 2px 2px;border-radius:50% 50% 50% 50%;cursor:pointer;"><i class="icofont icofont-social-facebook"></i> </a>
-
-    		<!-- LAYER NR. 13 -->
-    		<a class="tp-caption   tp-resizeme"
-    target="_blank" href="#"			 id="slide-414-layer-17"
-    			 data-x="['left','left','left','left']" data-hoffset="['170','120','120','100']"
-    			 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','50','30']"
-    						data-width="60"
-    			data-height="60"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-actions=''
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":2000,"speed":1000,"frame":"0","from":"y:50px;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power2.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(85, 172, 238, 1.00);bc:rgba(85, 172, 238, 1.00);"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-
-    			style="z-index: 17; min-width: 60px; max-width: 60px; max-width: 60px; max-width: 60px; white-space: nowrap; font-size: 20px; line-height: 60px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family: 'Montserrat', sans-serif;border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px 2px 2px 2px;border-radius:50% 50% 50% 50%;cursor:pointer;"><i class="icofont icofont-social-twitter"></i> </a>
-
-    		<!-- LAYER NR. 14 -->
-    		<a class="tp-caption   tp-resizeme"
-    target="_blank" href="#" id="slide-414-layer-18"
-    			 data-x="['left','left','left','left']" data-hoffset="['240','190','190','170']"
-    			 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','50','30']"
-    						data-width="60"
-    			data-height="60"
-    			data-whitespace="nowrap"
-
-    			data-type="text"
-    			data-actions=''
-    			data-basealign="slide"
-    			data-responsive_offset="on"
-
-    			data-frames='[{"delay":2000,"speed":1000,"frame":"0","from":"y:50px;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power2.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(221, 75, 57, 1.00);bc:rgba(221, 75, 57, 1.00);"}]'
-    			data-textAlign="['center','center','center','center']"
-    			data-paddingtop="[0,0,0,0]"
-    			data-paddingright="[0,0,0,0]"
-    			data-paddingbottom="[0,0,0,0]"
-    			data-paddingleft="[0,0,0,0]"
-
-    			style="z-index: 18; min-width: 60px; max-width: 60px; max-width: 60px; max-width: 60px; white-space: nowrap; font-size: 20px; line-height: 60px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family: 'Montserrat', sans-serif;border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px 2px 2px 2px;border-radius:50% 50% 50% 50%;cursor:pointer;"><i class="icofont icofont-social-google-plus"></i> </a>
+<!--== Team Start ==-->
+      <section style="background:url(assets/images/background/stars-bg-2.png) center center no-repeat #24182e;" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12 xs-mb-50">
+          <div class="section-title text-left">
+            <h2 class="cardo-font default-color" data-backfont="Team">Nosso Time de Agendamento</h2>
+            <p class="mt-50 font-26px line-height-40 white-color">Esses são os integrantes do nosso time responsáveis pelo agendamento de uso da nossa insfraestrutura.</p>
+				<br/><p class="font-26px white-color">Quer usar um de nossos ambientes?</p>
+				<br/><p class="font-26px white-color">Entre em contato com algum deles!
+					<p class="mt-30 font-16px line-height-10 white-color"> -> Rodrigo: 9:00 - 18:00</p>
+					<p class="mt-30 font-16px line-height-10 white-color"> -> Nicolly e Sarah: 18:00 - 22:00</p>
+				</p>
+			</p>
+          </div>
         </div>
-    	</li>
-    </ul>
-    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+
+        <div class="col-md-8 col-sm-8 col-xs-12">
+          <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="team-member">
+                  <div class="team-thumb">
+                    <div class="thumb-overlay"></div>
+                    <img src="assets/images/team/team-sm-4.jpg" alt="">
+                    <div class="member-info text-center color-1 white-color">
+                      <h3 class="mt-0">Rodrigo Napoli</h3>
+                      <span class="title">Assistente de Inovação</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 col-sm-6 col-xs-12 mt-50 xs-mt-0">
+                <div class="team-member">
+                  <div class="team-thumb">
+                    <div class="thumb-overlay"></div>
+                    <img src="assets/images/team/team-sm-5.jpeg" alt="">
+                    <div class="member-info text-center color-2 white-color">
+                      <h3 class="mt-0">Nicolly Sigiani</h3>
+                      <span class="title">Estagiária de Inovação</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 col-sm-6 col-xs-12 mt-minus-20 xs-mt-0">
+                <div class="team-member">
+                  <div class="team-thumb">
+                    <div class="thumb-overlay"></div>
+                    <img src="assets/images/team/team-sm-6.jpeg" alt="">
+                    <div class="member-info text-center color-3 white-color">
+                      <h3 class="mt-0">Sarah Miyake</h3>
+                      <span class="title">Estagiária de Inovação</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+    </div>
+  </section>
+  <!--===  Team End  ==-->
+
+  <div class="planet-x-wrap">
+    <div class="planet-x-right-3">
+      <img src="assets/images/planet-x-right-3.png" alt="mockup-5" class="img-responsive"/>
     </div>
   </div>
-  <!--== Coming Soon End ==-->
 
-</div>
+ <!--=== Agenda ======-->
+ <section class="lg-section" id="agenda">
+  <div class="col-md-6 col-sm-4 bg-flex bg-flex-left ">
+    <iframe src="https://calendar.google.com/calendar/embed?src=c_7pj4ihtogffp690vnvlkgoq82k%40group.calendar.google.com&ctz=America%2FSao_Paulo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+          
+  </div>
+  <div class="container-fluid">
+    <div class="col-md-5 col-sm-7 col-md-offset-6 col-sm-offset-4 pl-80 pr-70">
+      <div class="section-title">
+        <h2 class="cardo-font default-color" data-backfont="News">Agenda</h2>
+        <h1>Fique por dentro dos eventos<br><span class="text-bottom-line-sm"> da Vila!</span></h1>
+      </div>
+      <p>Quer reservar uma sala da Vila Sapiens?
+        Escolha o dia e horário que fica melhor pra você e nos mande pelo email:
+        inovacao@unis.edu.br
+      </p>
+    </div>
+  </div>
+</section>
+<!--=== Agenda ======-->
 <!--== Wrapper End ==-->
 
 <!--== Javascript Plugins ==-->
