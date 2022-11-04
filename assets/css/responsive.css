@@ -843,7 +843,7 @@
 	.play-button{width:35px;height:35px;line-height:35px;}
 	.play-button i{font-size: 20px;}
 	.play-button::before, .play-button::after{width:35px;height:35px;}
-	section.lg-section{padding-top:50px;padding-bottom: 50px;}
+	section.lg-section{padding-top:50px;padding-bottom: 50px; padding-left:50px;padding-right:50px}
 	.xs-centerize-col{float: none!important;margin-left: auto;margin-right: auto;}
 }
 
