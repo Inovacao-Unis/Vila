@@ -1,513 +1,975 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Vila Sapiens</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Vila Sapiens</title>
 
-<link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
 
-<!-- Core Style Sheets -->
-<link rel="stylesheet" href="assets/css/master.css">
-<!-- Responsive Style Sheets -->
-<link rel="stylesheet" href="assets/css/responsive.css">
-<!-- Revolution Style Sheets -->
-<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
-<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
-<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
-
-
-</head>
-<body>
-
-<!--== Loader Start ==-->
-<div id="loader-overlay">
-  <div class="loader">
-    <img src="assets/images/loader.svg" width="80" alt="">
-  </div>
-</div>
-<!--== Loader End ==-->
-
-<!--== Wrapper Start ==-->
-<div class="wrapper">
-
-  <!--== Header Start ==-->
-  <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full no-border">
-  	<!--== Start Top Search ==-->
-    <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close" id="fullscreen-close-button"><i class="icofont icofont-close"></i></a>
-      <div id="fullscreen-search-wrapper">
-        <form method="get" id="fullscreen-searchform">
-          <input type="text" value="" placeholder="Digite e aperte enter..." id="fullscreen-search-input" class="search-bar-top">
-          <i class="fullscreen-search-icon icofont icofont-search">
-          <input value="" type="submit">
-          </i>
-        </form>
+    <!-- Core Style Sheets -->
+    <link rel="stylesheet" href="assets/css/master.css" />
+    <!-- Responsive Style Sheets -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- Revolution Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" />
+    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="revolution/css/navigation.css"
+    />
+  </head>
+  <body>
+    <!--== Loader Start ==-->
+    <div id="loader-overlay">
+      <div class="loader">
+        <img src="assets/images/loader.svg" width="80" alt="" />
       </div>
     </div>
-    <!--== End Top Search ==-->
-    <div class="container">
-      <!--== Start Atribute Navigation ==-->
-      <div class="attr-nav hidden-xs sm-display-none">
-        <ul>
-          <li class="side-menu"><a href="#"><i class="icofont icofont-navigation-menu"></i></a></li>
-          <li class="search"><a href="#" id="search-button"><i class="icofont icofont-search"></i></a></li>
-        </ul>
-      </div>
-      <!--== End Atribute Navigation ==-->
+    <!--== Loader End ==-->
 
-      <!--== Start Header Navigation ==-->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="tr-icon ion-android-menu"></i> </button>
-        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="assets/images/Logo2.png" alt=""> <img class="logo logo-scrolled" src="assets/images/Logo3.png" alt=""> </a> </div>
-      </div>
-      <!--== End Header Navigation ==-->
-
-      <!--== Collect the nav links, forms, and other content for toggling ==-->
-      <div class="collapse navbar-collapse" id="navbar-menu">
-        <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">          
-          <li><a class="page-scroll" href="#feature">Nossos Serviços</a></li>
-          <li><a class="new-page" href="https://tccstartup.netlify.app/">TCC Startup</a></li>          
-          <li><a class="page-scroll" href="#about">Notícias</a></li>
-          <li><a class="new-page" href="https://certificado.uaiinovei.com.br/">Certificados</a></li>
-          <li><a class="new-page" href="agendamento.html">Agendamentos</a></li>
-        </ul>
-      </div>
-      <!--== /.navbar-collapse ==-->
-    </div>
-
-    <!-- Start Side Menu -->
-    <div class="side dark-bg">
-      <a href="#" class="close-side"><i class="icofont icofont-close"></i></a>
-    		<a href="index.html" class="logo-side"><img src="assets/images/Logo4.png" alt="side-logo"/></a>
-            <div class="widget mt-10">
-              <ul class="link">
-                <li class="link-item"><a class="page-scroll" href="#home">Página Inicial</a></li>
-                <li class="link-item"><a class="page-scroll" href="#feature">Nossos Serviços</a></li>
-                <li class="link-item"><a class="page-scroll" href="https://tccstartup.netlify.app/">TCC Startup</a></li>                
-                <li class="link-item"><a class="page-scroll" href="#about">Notícias</a></li>
-                <li class="link-item"><a class="page-scroll" href="https://certificado.uaiinovei.com.br/">Certificados</a></li>
-                <li class="link-item"><a class="page-scroll" href="agendamento.html">Agendamentos</a></li>
-              </ul>
-            </div>
-            <ul class="social-media">
-              <li><a href="#" class="icofont icofont-social-facebook"></a></li>
-              <li><a href="#" class="icofont icofont-social-twitter"></a></li>                            
-              <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
+    <!--== Wrapper Start ==-->
+    <div class="wrapper">
+      <!--== Header Start ==-->
+      <nav
+        class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full no-border"
+      >
+        <!--== Start Top Search ==-->
+        <div class="fullscreen-search-overlay" id="search-overlay">
+          <a href="#" class="fullscreen-close" id="fullscreen-close-button"
+            ><i class="icofont icofont-close"></i
+          ></a>
+          <div id="fullscreen-search-wrapper">
+            <form method="get" id="fullscreen-searchform">
+              <input
+                type="text"
+                value=""
+                placeholder="Digite e aperte enter..."
+                id="fullscreen-search-input"
+                class="search-bar-top"
+              />
+              <i class="fullscreen-search-icon icofont icofont-search">
+                <input value="" type="submit" />
+              </i>
+            </form>
+          </div>
+        </div>
+        <!--== End Top Search ==-->
+        <div class="container">
+          <!--== Start Atribute Navigation ==-->
+          <div class="attr-nav hidden-xs sm-display-none">
+            <ul>
+              <li class="side-menu">
+                <a href="#"><i class="icofont icofont-navigation-menu"></i></a>
+              </li>
+              <li class="search">
+                <a href="#" id="search-button"
+                  ><i class="icofont icofont-search"></i
+                ></a>
+              </li>
             </ul>
-     </div>
-     <!-- End Side Menu -->
+          </div>
+          <!--== End Atribute Navigation ==-->
 
-  </nav>
-  <!--== Header End ==-->
+          <!--== Start Header Navigation ==-->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#navbar-menu"
+            >
+              <i class="tr-icon ion-android-menu"></i>
+            </button>
+            <div class="logo">
+              <a href="index.html">
+                <img
+                  class="logo logo-display"
+                  src="assets/images/Logo2.png"
+                  alt=""
+                />
+                <img
+                  class="logo logo-scrolled"
+                  src="assets/images/Logo3.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <!--== End Header Navigation ==-->
 
-  <!--== Hero Slider Start ==-->
-  <div class="remove-padding transition-none" id="home">
-    <div id="rev_slider_975_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="agency-website" data-source="gallery" style="background-color:#24182e;padding:0px;">
-    <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
-        <div id="rev_slider_975_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
-    <ul>    <!-- SLIDE  -->
-        <li data-index="rs-2730" data-transition="slideoverdown" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500"  data-rotate="0"  data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-            <!-- MAIN IMAGE -->
-            <img src="assets/images/slides/BG_sapiens.png" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-            <!-- LAYERS -->
+          <!--== Collect the nav links, forms, and other content for toggling ==-->
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul
+              class="nav navbar-nav navbar-center"
+              data-in="fadeIn"
+              data-out="fadeOut"
+            >
+              <li>
+                <a class="page-scroll" href="#feature">Nossos Serviços</a>
+              </li>
+              <li><a class="new-page" href="tcc.html">TCC Startup</a></li>
+              <li><a class="page-scroll" href="#about">Notícias</a></li>
+              <li>
+                <a class="new-page" href="https://certificado.uaiinovei.com.br/"
+                  >Certificados</a
+                >
+              </li>
+              <li>
+                <a class="new-page" href="agendamento.html">Agendamentos</a>
+              </li>
+            </ul>
+          </div>
+          <!--== /.navbar-collapse ==-->
+        </div>
 
-            <!-- LAYER NR. 1 -->
-            <div class="tp-caption rs-parallaxlevel-5"
-                 id="slide-2730-layer-1"
-                 data-x="['center','center','center','center']" data-hoffset="['0','-30','0','0']"
-                 data-y="['middle','middle','bottom','bottom']" data-voffset="['0','0','40','0']"
-                            data-width="none"
-                data-height="none"
-                data-whitespace="nowrap"
+        <!-- Start Side Menu -->
+        <div class="side dark-bg">
+          <a href="#" class="close-side"
+            ><i class="icofont icofont-close"></i
+          ></a>
+          <a href="index.html" class="logo-side"
+            ><img src="assets/images/Logo4.png" alt="side-logo"
+          /></a>
+          <div class="widget mt-10">
+            <ul class="link">
+              <li class="link-item">
+                <a class="page-scroll" href="#home">Página Inicial</a>
+              </li>
+              <li class="link-item">
+                <a class="page-scroll" href="#feature">Nossos Serviços</a>
+              </li>
+              <li class="link-item">
+                <a class="page-scroll" href="https://tccstartup.netlify.app/"
+                  >TCC Startup</a
+                >
+              </li>
+              <li class="link-item">
+                <a class="page-scroll" href="#about">Notícias</a>
+              </li>
+              <li class="link-item">
+                <a
+                  class="page-scroll"
+                  href="https://certificado.uaiinovei.com.br/"
+                  >Certificados</a
+                >
+              </li>
+              <li class="link-item">
+                <a class="page-scroll" href="agendamento.html">Agendamentos</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="social-media">
+            <li><a href="#" class="icofont icofont-social-facebook"></a></li>
+            <li><a href="#" class="icofont icofont-social-twitter"></a></li>
+            <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
+          </ul>
+        </div>
+        <!-- End Side Menu -->
+      </nav>
+      <!--== Header End ==-->
 
-                data-type="image"
-                data-responsive_offset="off"
-                data-responsive="off"
-                data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power3.easeOut"},{"delay":"wait","speed":3000,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                data-textAlign="['left','left','left','left']"
-                data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]"
-                data-paddingbottom="[0,0,0,0]"
-                data-paddingleft="[0,0,0,0]"
+      <!--== Hero Slider Start ==-->
+      <div class="remove-padding transition-none" id="home">
+        <div
+          id="rev_slider_975_1_wrapper"
+          class="rev_slider_wrapper fullscreen-container"
+          data-alias="agency-website"
+          data-source="gallery"
+          style="background-color: #24182e; padding: 0px"
+        >
+          <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
+          <div
+            id="rev_slider_975_1"
+            class="rev_slider fullscreenbanner"
+            style="display: none"
+            data-version="5.4.1"
+          >
+            <ul>
+              <!-- SLIDE  -->
+              <li
+                data-index="rs-2730"
+                data-transition="slideoverdown"
+                data-slotamount="default"
+                data-hideafterloop="0"
+                data-hideslideonmobile="off"
+                data-easein="Power3.easeInOut"
+                data-easeout="Power3.easeInOut"
+                data-masterspeed="1500"
+                data-rotate="0"
+                data-saveperformance="off"
+                data-title="Intro"
+                data-param1=""
+                data-param2=""
+                data-param3=""
+                data-param4=""
+                data-param5=""
+                data-param6=""
+                data-param7=""
+                data-param8=""
+                data-param9=""
+                data-param10=""
+                data-description=""
+              >
+                <!-- MAIN IMAGE -->
+                <img
+                  src="assets/images/slides/BG_sapiens.png"
+                  alt=""
+                  data-bgposition="center center"
+                  data-bgfit="cover"
+                  data-bgrepeat="no-repeat"
+                  data-bgparallax="off"
+                  class="rev-slidebg"
+                  data-no-retina
+                />
+                <!-- LAYERS -->
 
-                style="z-index: 5;border-width:0px;"><img src="assets/images/dummy.png" alt="" data-ww="['1000px','800px','600px','380px']" data-hh="['470px','470px','360px','228px']" width="1000" height="470" data-lazyload="assets/images/macbookpro.png" data-no-retina> </div>
+                <!-- LAYER NR. 1 -->
+                <div
+                  class="tp-caption rs-parallaxlevel-5"
+                  id="slide-2730-layer-1"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','-30','0','0']"
+                  data-y="['middle','middle','bottom','bottom']"
+                  data-voffset="['0','0','40','0']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-responsive_offset="off"
+                  data-responsive="off"
+                  data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power3.easeOut"},{"delay":"wait","speed":3000,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 5; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/dummy.png"
+                    alt=""
+                    data-ww="['1000px','800px','600px','380px']"
+                    data-hh="['470px','470px','360px','228px']"
+                    width="1000"
+                    height="470"
+                    data-lazyload="assets/images/macbookpro.png"
+                    data-no-retina
+                  />
+                </div>
 
-            <!-- LAYER NR. 2 -->
-            <div class="tp-caption rs-parallaxlevel-5"
-                 id="slide-2730-layer-2"
-                 data-x="['center','center','center','center']" data-hoffset="['0','-30','0','0']"
-                 data-y="['middle','middle','bottom','bottom']" data-voffset="['-10','-10','97','35']"
-                            data-width="none"
-                data-height="none"
-                data-whitespace="nowrap"
+                <!-- LAYER NR. 2 -->
+                <div
+                  class="tp-caption rs-parallaxlevel-5"
+                  id="slide-2730-layer-2"
+                  data-x="['center','center','center','center']"
+                  data-hoffset="['0','-30','0','0']"
+                  data-y="['middle','middle','bottom','bottom']"
+                  data-voffset="['-10','-10','97','35']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-responsive_offset="off"
+                  data-responsive="off"
+                  data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1000,"to":"o:1;","delay":1500,"ease":"Power3.easeOut"},{"delay":"wait","speed":3000,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 6; border-width: 0px"
+                >
+                  <img
+                    src="assets/images/dummy.png"
+                    alt=""
+                    data-ww="['673px','572px','403','255px']"
+                    data-hh="['349px','376px','265','169px']"
+                    width="672"
+                    height="342"
+                    data-lazyload="assets/images/screen1_content.JPEG"
+                    data-no-retina
+                  />
+                </div>
 
-                data-type="image"
-                data-responsive_offset="off"
-                data-responsive="off"
-                data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1000,"to":"o:1;","delay":1500,"ease":"Power3.easeOut"},{"delay":"wait","speed":3000,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                data-textAlign="['left','left','left','left']"
-                data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]"
-                data-paddingbottom="[0,0,0,0]"
-                data-paddingleft="[0,0,0,0]"
+                <!-- LAYER NR. 3 -->
+                <div
+                  class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-3"
+                  id="slide-2730-layer-3"
+                  data-x="['right','right','center','center']"
+                  data-hoffset="['20','0','0','0']"
+                  data-y="['middle','middle','top','top']"
+                  data-voffset="['0','0','130','120']"
+                  data-width="300"
+                  data-height="330"
+                  data-whitespace="nowrap"
+                  data-type="shape"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1000,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":3000,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="
+                    z-index: 7;
+                    background-color: #f5325c;
+                    border-color: rgba(0, 0, 0, 0.5);
+                    border-width: 0px;
+                  "
+                ></div>
 
-                style="z-index: 6;border-width:0px;"><img src="assets/images/dummy.png" alt="" data-ww="['673px','572px','403','255px']" data-hh="['349px','376px','265','169px']" width="672" height="342" data-lazyload="assets/images/screen1_content.JPEG" data-no-retina> </div>
+                <!-- LAYER NR. 4 -->
+                <div
+                  class="tp-caption Agency-SmallTitle tp-resizeme rs-parallaxlevel-3"
+                  id="slide-2730-layer-4"
+                  data-x="['right','right','center','center']"
+                  data-hoffset="['40','20','0','0']"
+                  data-y="['middle','middle','top','top']"
+                  data-voffset="['-98','-98','164','154']"
+                  data-width="260"
+                  data-height="none"
+                  data-whitespace="normal"
+                  data-type="text"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":2000,"ease":"Power4.easeOut"},{"delay":"wait","speed":3000,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+                  data-textAlign="['center','center','center','center']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="
+                    z-index: 8;
+                    min-width: 260px;
+                    max-width: 260px;
+                    white-space: normal;
+                    color: #fff;
+                    font-family: 'Montserrat', sans-serif;
+                  "
+                >
+                  <span style="font-weight: 700 !important">VILA SAPIENS</span>
+                  <br />ESPAÇO FÍSICO
+                </div>
 
-            <!-- LAYER NR. 3 -->
-            <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-3"
-                 id="slide-2730-layer-3"
-                 data-x="['right','right','center','center']" data-hoffset="['20','0','0','0']"
-                 data-y="['middle','middle','top','top']" data-voffset="['0','0','130','120']"
-                            data-width="300"
-                data-height="330"
-                data-whitespace="nowrap"
-
-                data-type="shape"
-                data-responsive_offset="on"
-
-                data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1000,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":3000,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                data-textAlign="['left','left','left','left']"
-                data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]"
-                data-paddingbottom="[0,0,0,0]"
-                data-paddingleft="[0,0,0,0]"
-
-                style="z-index: 7;background-color:#F5325C;border-color:rgba(0, 0, 0, 0.50);border-width:0px;"> </div>
-
-            <!-- LAYER NR. 4 -->
-            <div class="tp-caption Agency-SmallTitle   tp-resizeme rs-parallaxlevel-3"
-                 id="slide-2730-layer-4"
-                 data-x="['right','right','center','center']" data-hoffset="['40','20','0','0']"
-                 data-y="['middle','middle','top','top']" data-voffset="['-98','-98','164','154']"
-                            data-width="260"
-                data-height="none"
-                data-whitespace="normal"
-
-                data-type="text"
-                data-responsive_offset="on"
-
-                data-frames='[{"from":"y:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":2000,"ease":"Power4.easeOut"},{"delay":"wait","speed":3000,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                data-textAlign="['center','center','center','center']"
-                data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]"
-                data-paddingbottom="[0,0,0,0]"
-                data-paddingleft="[0,0,0,0]"
-
-                style="z-index: 8; min-width: 260px; max-width: 260px; white-space: normal;color:#fff;font-family: 'Montserrat', sans-serif;"><span style="font-weight:700 !important;">VILA SAPIENS</span>
-                <br>ESPAÇO FÍSICO </div>
-
-            <!-- LAYER NR. 5 -->
-            <div class="tp-caption Agency-SmallContent   tp-resizeme rs-parallaxlevel-3"
-                 id="slide-2730-layer-5"
-                 data-x="['right','right','center','center']" data-hoffset="['40','20','0','0']"
-                 data-y="['middle','middle','top','top']" data-voffset="['20','20','255','246']"
-                            data-width="260"
-                data-height="none"
-                data-whitespace="normal"
-
-                data-type="text"
-                data-responsive_offset="on"
-
-                data-frames='[{"from":"y:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":2150,"ease":"Power4.easeOut"},{"delay":"wait","speed":3000,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                data-textAlign="['center','center','center','center']"
-                data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]"
-                data-paddingbottom="[0,0,0,0]"
-                data-paddingleft="[0,0,0,0]"
-
-                style="z-index: 9; min-width: 260px; max-width: 260px; white-space: normal; color: #fff;font-family: 'Montserrat', sans-serif;">O termo ''Sapiens'' vem do latim ''sábio'', e nada mais justo do que chamar de sábio o lugar que proporcionará o nascimento de novas ideias, conexões, apoio e   desenvolvimento pessoal.  </div>
-
+                <!-- LAYER NR. 5 -->
+                <div
+                  class="tp-caption Agency-SmallContent tp-resizeme rs-parallaxlevel-3"
+                  id="slide-2730-layer-5"
+                  data-x="['right','right','center','center']"
+                  data-hoffset="['40','20','0','0']"
+                  data-y="['middle','middle','top','top']"
+                  data-voffset="['20','20','255','246']"
+                  data-width="260"
+                  data-height="none"
+                  data-whitespace="normal"
+                  data-type="text"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"y:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":2150,"ease":"Power4.easeOut"},{"delay":"wait","speed":3000,"to":"opacity:0;","ease":"Power4.easeIn"}]'
+                  data-textAlign="['center','center','center','center']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="
+                    z-index: 9;
+                    min-width: 260px;
+                    max-width: 260px;
+                    white-space: normal;
+                    color: #fff;
+                    font-family: 'Montserrat', sans-serif;
+                  "
+                >
+                  O termo ''Sapiens'' vem do latim ''sábio'', e nada mais justo
+                  do que chamar de sábio o lugar que proporcionará o nascimento
+                  de novas ideias, conexões, apoio e desenvolvimento pessoal.
+                </div>
 
                 <!-- LAYER NR. 6 -->
-                <div class="tp-caption tp-resizeme rs-parallaxlevel-4"
-                   id="slide-3046-layer-6"
-                   data-x="['left','left','left','left']" data-hoffset="['-300','-300','0','0']"
-                   data-y="['middle','middle','middle','middle']" data-voffset="['-50','0','-316','-316']"
-                   data-width="none"
-                   data-height="none"
-                   data-whitespace="nowrap"
-                   data-type="image"
-                   data-responsive_offset="on"
-                   data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":2000,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
-                   data-textAlign="['left','left','left','left']"
-                   data-paddingtop="[0,0,0,0]"
-                   data-paddingright="[0,0,0,0]"
-                   data-paddingbottom="[0,0,0,0]"
-                   data-paddingleft="[0,0,0,0]"
-                   style="z-index: 14;border-width:0px;">
-                <div class="rs-looped rs-slideloop" data-easing="" data-speed="3" data-xs="0" data-xe="0" data-ys="30" data-ye="-10"><img src="assets/images/astro-img.png" alt="" data-ww="['440px','320px','250px','120px']" data-hh="['476px','346px','270px','130px']" width="440" height="476" data-no-retina> </div></div>
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-4"
+                  id="slide-3046-layer-6"
+                  data-x="['left','left','left','left']"
+                  data-hoffset="['-300','-300','0','0']"
+                  data-y="['middle','middle','middle','middle']"
+                  data-voffset="['-50','0','-316','-316']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":2000,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['left','left','left','left']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 14; border-width: 0px"
+                >
+                  <div
+                    class="rs-looped rs-slideloop"
+                    data-easing=""
+                    data-speed="3"
+                    data-xs="0"
+                    data-xe="0"
+                    data-ys="30"
+                    data-ye="-10"
+                  >
+                    <img
+                      src="assets/images/astro-img.png"
+                      alt=""
+                      data-ww="['440px','320px','250px','120px']"
+                      data-hh="['476px','346px','270px','130px']"
+                      width="440"
+                      height="476"
+                      data-no-retina
+                    />
+                  </div>
+                </div>
 
                 <!-- LAYER NR. 7 -->
-                <div class="tp-caption tp-resizeme rs-parallaxlevel-5"
-                   id="slide-3046-layer-7"
-                   data-x="['right','right','right','right']" data-hoffset="['-300','-300','100','0']"
-                   data-y="['middle','middle','bottom','bottom']" data-voffset="['200','200','50','-100']"
-                   data-width="none"
-                   data-height="none"
-                   data-whitespace="nowrap"
-                   data-type="image"
-                   data-responsive_offset="on"
-                   data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":2000,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
-                   data-textAlign="['right','right','right','right']"
-                   data-paddingtop="[0,0,0,0]"
-                   data-paddingright="[0,0,0,0]"
-                   data-paddingbottom="[0,0,0,0]"
-                   data-paddingleft="[0,0,0,0]"
-                   style="z-index: 14;border-width:0px;">
-                <div class="rs-looped rs-wave"  data-speed="4" data-angle="0" data-radius="10" data-origin="50% 50%"><img src="assets/images/planet-img.png" alt="" data-ww="['298px','298px','120px','150px']" data-hh="['342px','342px','130px','162px']" width="298" height="342" data-no-retina> </div></div>
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-5"
+                  id="slide-3046-layer-7"
+                  data-x="['right','right','right','right']"
+                  data-hoffset="['-300','-300','100','0']"
+                  data-y="['middle','middle','bottom','bottom']"
+                  data-voffset="['200','200','50','-100']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-type="image"
+                  data-responsive_offset="on"
+                  data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":2000,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+                  data-textAlign="['right','right','right','right']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,0,0]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,0,0]"
+                  style="z-index: 14; border-width: 0px"
+                >
+                  <div
+                    class="rs-looped rs-wave"
+                    data-speed="4"
+                    data-angle="0"
+                    data-radius="10"
+                    data-origin="50% 50%"
+                  >
+                    <img
+                      src="assets/images/planet-img.png"
+                      alt=""
+                      data-ww="['298px','298px','120px','150px']"
+                      data-hh="['342px','342px','130px','162px']"
+                      width="298"
+                      height="342"
+                      data-no-retina
+                    />
+                  </div>
+                </div>
 
-        <!-- SLIDE  -->
+                <!-- SLIDE  -->
+              </li>
+            </ul>
 
-    </ul>
-
-    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>
-    </div><!-- END REVOLUTION SLIDER -->
-  </div>
-  <!--== Hero Slider End ==-->
-
-  <!--== What We Offer Start ==-->
-  <section id="feature">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-12 xs-mb-50">
-          <div class="section-title text-left">
-            <h2 class="cardo-font default-color" data-backfont="Serviços">Nossos Serviços</h2>
-            <h1>Trabalhamos Juntos <br>Para o Seu <span class="text-bottom-line-sm">Sucesso</span></h1>
-            <p class="mt-50 font-26px line-height-40">A Vila Sapiens trabalha para promover tecnologia! 
-              Seja para pessoas que queiram desenvolver ideias e transformá-las em negócios, 
-              para startups que necessitam de um espaço físico que englobe laboratórios e espaços modernos de tecnologia,
-              ou para empresas que querem que seus desafios sejam resolvidos com ideias inovadoras e tecnológicas.</p>
-            <p class="mt-30"><a class="btn btn-lg btn-dark btn-square">Entrem em Contato</a></p>
+            <div
+              class="tp-bannertimer tp-bottom"
+              style="visibility: hidden !important"
+            ></div>
           </div>
         </div>
+        <!-- END REVOLUTION SLIDER -->
+      </div>
+      <!--== Hero Slider End ==-->
 
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="panel-group accordion-style-01" id="accordion-style">
-            <div class="panel">
-              <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question1" aria-expanded="false" class="collapsed">
-                <div class="panel-title">Pré-Incubação <span class="pull-right"><i class="ion-android-remove"></i></span> </div>
-                </a> </div>
-              <div id="question1" class="panel-collapse collapse in" aria-expanded="false" role="tablist">
-                <div class="panel-body"> A Pré-Incubação é voltada para empreendedores que possuem uma ideia e precisam de suporte e orientação para transformá-la em um negócio. É necessário que o empreendedor tenha capacidade técnica para desenvolver o projeto. </div>
+      <!--== What We Offer Start ==-->
+      <section id="feature">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12 xs-mb-50">
+              <div class="section-title text-left">
+                <h2 class="cardo-font default-color" data-backfont="Serviços">
+                  Nossos Serviços
+                </h2>
+                <h1>
+                  Trabalhamos Juntos <br />Para o Seu
+                  <span class="text-bottom-line-sm">Sucesso</span>
+                </h1>
+                <p class="mt-50 font-26px line-height-40">
+                  A Vila Sapiens trabalha para promover tecnologia! Seja para
+                  pessoas que queiram desenvolver ideias e transformá-las em
+                  negócios, para startups que necessitam de um espaço físico que
+                  englobe laboratórios e espaços modernos de tecnologia, ou para
+                  empresas que querem que seus desafios sejam resolvidos com
+                  ideias inovadoras e tecnológicas.
+                </p>
+                <p class="mt-30">
+                  <a class="btn btn-lg btn-dark btn-square"
+                    >Entrem em Contato</a
+                  >
+                </p>
               </div>
             </div>
-            <div class="panel">
-              <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question2" aria-expanded="false" class="collapsed">
-                <div class="panel-title">Incubação de Empresas <span class="pull-right"><i class="ion-android-add"></i></span> </div>
-                </a> </div>
-              <div id="question2" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                <div class="panel-body"> A incubadora de empresas é uma forma de estimular o empreendedorismo. Ela fortalece e prepara as pequenas empresas com o intuito de fazê-las sobreviver no mercado.
-                  É um local que abriga esses negócios, oferecendo estrutura capaz de estimular, fornecer e agilizar a transferência de resultados de pesquisa para atividades voltadas à produção.</div>
-              </div>
-            </div>
-            <div class="panel">
-              <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question3" aria-expanded="false" class="collapsed">
-                <div class="panel-title">Treinamento de Colaboradores <span class="pull-right"><i class="ion-android-add"></i></span> </div>
-                </a> </div>
-              <div id="question3" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                <div class="panel-body"> O treinamento e capacitação de funcionários é uma prática adotada pela empresa para aumentar o desempenho da equipe e potencializar os resultados diários.
-                  Aqui, os treinamentos são personalizados para cada empresa/objetivo.
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="panel-group accordion-style-01" id="accordion-style">
+                <div class="panel">
+                  <div class="panel-heading">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordion-style"
+                      href="#question1"
+                      aria-expanded="false"
+                      class="collapsed"
+                    >
+                      <div class="panel-title">
+                        Pré-Incubação
+                        <span class="pull-right"
+                          ><i class="ion-android-remove"></i
+                        ></span>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    id="question1"
+                    class="panel-collapse collapse in"
+                    aria-expanded="false"
+                    role="tablist"
+                  >
+                    <div class="panel-body">
+                      A Pré-Incubação é voltada para empreendedores que possuem
+                      uma ideia e precisam de suporte e orientação para
+                      transformá-la em um negócio. É necessário que o
+                      empreendedor tenha capacidade técnica para desenvolver o
+                      projeto.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-heading">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordion-style"
+                      href="#question2"
+                      aria-expanded="false"
+                      class="collapsed"
+                    >
+                      <div class="panel-title">
+                        Incubação de Empresas
+                        <span class="pull-right"
+                          ><i class="ion-android-add"></i
+                        ></span>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    id="question2"
+                    class="panel-collapse collapse"
+                    aria-expanded="false"
+                    role="tablist"
+                  >
+                    <div class="panel-body">
+                      A incubadora de empresas é uma forma de estimular o
+                      empreendedorismo. Ela fortalece e prepara as pequenas
+                      empresas com o intuito de fazê-las sobreviver no mercado.
+                      É um local que abriga esses negócios, oferecendo estrutura
+                      capaz de estimular, fornecer e agilizar a transferência de
+                      resultados de pesquisa para atividades voltadas à
+                      produção.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-heading">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordion-style"
+                      href="#question3"
+                      aria-expanded="false"
+                      class="collapsed"
+                    >
+                      <div class="panel-title">
+                        Treinamento de Colaboradores
+                        <span class="pull-right"
+                          ><i class="ion-android-add"></i
+                        ></span>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    id="question3"
+                    class="panel-collapse collapse"
+                    aria-expanded="false"
+                    role="tablist"
+                  >
+                    <div class="panel-body">
+                      O treinamento e capacitação de funcionários é uma prática
+                      adotada pela empresa para aumentar o desempenho da equipe
+                      e potencializar os resultados diários. Aqui, os
+                      treinamentos são personalizados para cada
+                      empresa/objetivo.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-heading">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordion-style"
+                      href="#question4"
+                      aria-expanded="false"
+                      class="collapsed"
+                    >
+                      <div class="panel-title">
+                        Soluções para Problemas Empresariais
+                        <span class="pull-right"
+                          ><i class="ion-android-add"></i
+                        ></span>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    id="question4"
+                    class="panel-collapse collapse"
+                    aria-expanded="false"
+                    role="tablist"
+                  >
+                    <div class="panel-body">
+                      A resolução de problemas é o processo de compreender um
+                      desafio e trabalhar para encontrar uma solução eficaz para
+                      ele. Aqui na Vila Sapiens, colcoaremos startups para
+                      resolver os problemas com o melhor custo-benefício.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-heading">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordion-style"
+                      href="#question5"
+                      aria-expanded="false"
+                      class="collapsed"
+                    >
+                      <div class="panel-title">
+                        Hackathons
+                        <span class="pull-right"
+                          ><i class="ion-android-add"></i
+                        ></span>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    id="question5"
+                    class="panel-collapse collapse"
+                    aria-expanded="false"
+                    role="tablist"
+                  >
+                    <div class="panel-body">
+                      É um evento que reúne programadores, designers e outros
+                      profissionais ligados ao desenvolvimento de software para
+                      uma maratona de programação, cujo objetivo é desenvolver
+                      um software ou solução tecnológica que atenda a um fim
+                      específico.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-heading">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordion-style"
+                      href="#question6"
+                      aria-expanded="false"
+                      class="collapsed"
+                    >
+                      <div class="panel-title">
+                        TCC Startup para discentes
+                        <span class="pull-right"
+                          ><i class="ion-android-add"></i
+                        ></span>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    id="question6"
+                    class="panel-collapse collapse"
+                    aria-expanded="false"
+                    role="tablist"
+                  >
+                    <div class="panel-body">
+                      O TCC Startup tem o objetivo de fazer com que os alunos
+                      trabalhem problemas reais como TCCs, desenvolvimento
+                      soluções, que podem ser produtos, serviços, ou mesmo
+                      startups.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-heading">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordion-style"
+                      href="#question7"
+                      aria-expanded="false"
+                      class="collapsed"
+                    >
+                      <div class="panel-title">
+                        Workshop Gamificado de Design Thinking
+                        <span class="pull-right"
+                          ><i class="ion-android-add"></i
+                        ></span>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    id="question7"
+                    class="panel-collapse collapse"
+                    aria-expanded="false"
+                    role="tablist"
+                  >
+                    <div class="panel-body">
+                      O Workshop de Design Thinking é um evento mão na massa
+                      (presencial ou remoto) para se apropriar da mudança de
+                      paradigma na forma de inovar em produtos e serviços. A
+                      gamificação vem para tornar o workshop mais dinâmico e
+                      ágil.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="panel">
-              <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question4" aria-expanded="false" class="collapsed">
-                <div class="panel-title">Soluções para Problemas Empresariais  <span class="pull-right"><i class="ion-android-add"></i></span> </div>
-                </a> </div>
-              <div id="question4" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                <div class="panel-body">A resolução de problemas é o processo de compreender um desafio e trabalhar para encontrar uma solução eficaz para ele.
-                  Aqui na Vila Sapiens, colcoaremos startups para resolver os problemas com o melhor custo-benefício.
-                </div>
-              </div>
-            </div>
-            <div class="panel">
-              <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question5" aria-expanded="false" class="collapsed">
-                <div class="panel-title">Hackathons <span class="pull-right"><i class="ion-android-add"></i></span> </div>
-                </a> </div>
-              <div id="question5" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                <div class="panel-body"> É um evento que reúne programadores, designers e outros profissionais ligados ao desenvolvimento de software para uma maratona de programação, cujo objetivo é desenvolver um software ou solução tecnológica que atenda a um fim específico. </div>
-              </div>
-            </div>
-            <div class="panel">
-              <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question6" aria-expanded="false" class="collapsed">
-                <div class="panel-title">TCC Startup para discentes <span class="pull-right"><i class="ion-android-add"></i></span> </div>
-                </a> </div>
-              <div id="question6" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                <div class="panel-body"> O TCC Startup tem o objetivo de  fazer com que os alunos trabalhem problemas reais como TCCs, desenvolvimento soluções, que podem ser produtos, serviços, ou mesmo startups. </div>
-              </div>
-            </div>
-            <div class="panel">
-              <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question7" aria-expanded="false" class="collapsed">
-                <div class="panel-title">Workshop Gamificado de Design Thinking <span class="pull-right"><i class="ion-android-add"></i></span> </div>
-                </a> </div>
-              <div id="question7" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                <div class="panel-body"> O Workshop de Design Thinking é um evento mão na massa (presencial ou remoto) para se apropriar da mudança de paradigma na forma de inovar em produtos e serviços. A gamificação vem para tornar o workshop mais dinâmico e ágil.</div>
-              </div>
+          </div>
+        </div>
+      </section>
+      <!--== What We Offer End ==-->
+
+      <div class="planet-x-wrap">
+        <div class="planet-x-left">
+          <img
+            src="assets/images/planet-x-left.png"
+            alt="mockup-1"
+            class="img-responsive"
+          />
+        </div>
+        <div class="planet-x-right">
+          <img
+            src="assets/images/idea.png"
+            alt="mockup-2"
+            class="img-responsive"
+          />
+        </div>
+      </div>
+
+      <!--== Process Start ==-->
+      <section
+        style="
+          background: url(assets/images/background/stars-bg.png) center center
+            no-repeat #24182e;
+        "
+      >
+        <div class="container">
+          <div class="col-xs-6 col-xs-6 col-xs-6 xs-mb-20 margin">
+            <div class="section-title text-left white-color">
+              <h2 class="cardo-font white-color" data-backfont="Sucesso">
+                Como Trabalhamos
+              </h2>
+              <h1>
+                Passos para <br />
+                o <span class="text-bottom-line-sm">Sucesso</span>
+              </h1>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!--== What We Offer End ==-->
-
-  <div class="planet-x-wrap">
-    <div class="planet-x-left">
-      <img src="assets/images/planet-x-left.png" alt="mockup-1" class="img-responsive"/>
-    </div>
-    <div class="planet-x-right">
-      <img src="assets/images/idea.png" alt="mockup-2" class="img-responsive"/>
-    </div>
-  </div>
-
-  <!--== Process Start ==-->
-  <section style="background:url(assets/images/background/stars-bg.png) center center no-repeat #24182e;">
-    <div class="container">
-      
-        <div class="col-xs-6 col-xs-6 col-xs-6 xs-mb-20 margin">
-          <div class="section-title text-left white-color">
-            <h2 class="cardo-font white-color" data-backfont="Sucesso">Como Trabalhamos</h2>
-            <h1>Passos para <br> o <span class="text-bottom-line-sm">Sucesso</span></h1>
-          </div>
-        </div>
-      </div>
-      <div class="row our-process-style-02 mt-20 margin">
-         <div class="col-xs-2 col-xs-4 col-xs-4 line xs-mb-5 sm-mb-5">
-           <div class="icon-wrap color-1">
-             <div class="icon">
-               <i class="icon-tools white-color font-30px"></i>
-             </div>
-           </div>
-           <div class="text-center white-color">
-             <h3 class="mt-10 white-color font-600">Imersão</h3>
-             <p class="mb-0"> Um dos principais desafios da imersão é entender o problema de uma forma empática, isso é, tentando compreender a percepção do público sobre o tema. 
-              Essas informações serão fundamentais para a estruturação da próxima etapa do Design Thinking: a Análise e Síntese.
-             </p>
-           </div>
-         </div>
-         <div class="col-xs-2 col-xs-4 col-xs-4 line xs-mb-5 sm-mb-5">
-           <div class="icon-wrap color-2">
-             <div class="icon">
-               <i class="icon-globe white-color font-30px"></i>
-             </div>
-           </div>
-           <div class="text-center white-color">
-             <h3 class="mt-10 white-color font-600">Análise e Síntese</h3>
-             <p class="mb-0">É na etapa de análise e síntese que acontece o planejamento das ações que precisam ser 
-              realizadas . É fundamental que cada detalhe dessa etapa esteja documentado e apresentado de uma forma visual, 
-              para que sirva de base para todo o restante do projeto.</p>
-           </div>
-         </div>
-         <div class="col-xs-2 col-xs-4 col-xs-4 line xs-mb-5 sm-mb-5">
-           <div class="icon-wrap color-3">
-             <div class="icon">
-               <i class="icon-mobile white-color font-30px"></i>
-             </div>
-           </div>
-           <div class="text-center white-color">
-             <h3 class="mt-10 white-color font-600">Ideação</h3>
-             <p class="mb-0">É considerada a fase do brainstorming. Após o entendimento do problema, 
-               da análise das possibilidades e das características e da realização da síntese de tudo que foi coletado, 
-               é hora de coletar ideias para desenvolver uma solução realmente eficiente para o público específico.
+        <div class="row our-process-style-02 mt-20 margin">
+          <div class="col-xs-2 col-xs-4 col-xs-4 line xs-mb-5 sm-mb-5">
+            <div class="icon-wrap color-1">
+              <div class="icon">
+                <i class="icon-tools white-color font-30px"></i>
+              </div>
+            </div>
+            <div class="text-center white-color">
+              <h3 class="mt-10 white-color font-600">Imersão</h3>
+              <p class="mb-0">
+                Um dos principais desafios da imersão é entender o problema de
+                uma forma empática, isso é, tentando compreender a percepção do
+                público sobre o tema. Essas informações serão fundamentais para
+                a estruturação da próxima etapa do Design Thinking: a Análise e
+                Síntese.
               </p>
-           </div>
-         </div>
-         <div class="col-xs-2 col-xs-4 col-xs-4 line xs-mb-5 sm-mb-5">
-           <div class="icon-wrap color-4">
-             <div class="icon">
-               <i class="icon-browser white-color font-30px"></i>
-             </div>
-           </div>
-           <div class="text-center white-color">
-             <h3 class="mt-10 white-color font-600">Prototipagem e Teste</h3>
-             <p class="mb-0"> A criação de protótipos para testar a 
-               aderência da solução junto ao público e o resultado para a empresa.Uma boa estratégia é a criação de MVPs (mínimo produto viável). 
-                Assim, é possível criar testes  melhorando o produto de acordo com a demanda.</p>
-           </div>
-         </div>
-         <div class="col-xs-2 col-xs-4 col-xs-4 line xs-mb-5 sm-mb-5">
-          <div class="icon-wrap color-1">
-            <div class="icon">
-              <i class="icon-mobile white-color font-30px"></i>
             </div>
           </div>
-          <div class="text-center white-color">
-            <h3 class="mt-10 white-color font-600">Implementação</h3>
-            <p class="mb-0">Após o momento de prototipagem, você terá dados sobre a performance da sua solução e informações sobre 
-              os ajustes necessários. Depois de realizar as alterações necessárias, é hora de implementar o que foi planejado e colocar no mercado.</p>
+          <div class="col-xs-2 col-xs-4 col-xs-4 line xs-mb-5 sm-mb-5">
+            <div class="icon-wrap color-2">
+              <div class="icon">
+                <i class="icon-globe white-color font-30px"></i>
+              </div>
+            </div>
+            <div class="text-center white-color">
+              <h3 class="mt-10 white-color font-600">Análise e Síntese</h3>
+              <p class="mb-0">
+                É na etapa de análise e síntese que acontece o planejamento das
+                ações que precisam ser realizadas . É fundamental que cada
+                detalhe dessa etapa esteja documentado e apresentado de uma
+                forma visual, para que sirva de base para todo o restante do
+                projeto.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-2 col-xs-4 col-xs-4 line xs-mb-5 sm-mb-5">
+            <div class="icon-wrap color-3">
+              <div class="icon">
+                <i class="icon-mobile white-color font-30px"></i>
+              </div>
+            </div>
+            <div class="text-center white-color">
+              <h3 class="mt-10 white-color font-600">Ideação</h3>
+              <p class="mb-0">
+                É considerada a fase do brainstorming. Após o entendimento do
+                problema, da análise das possibilidades e das características e
+                da realização da síntese de tudo que foi coletado, é hora de
+                coletar ideias para desenvolver uma solução realmente eficiente
+                para o público específico.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-2 col-xs-4 col-xs-4 line xs-mb-5 sm-mb-5">
+            <div class="icon-wrap color-4">
+              <div class="icon">
+                <i class="icon-browser white-color font-30px"></i>
+              </div>
+            </div>
+            <div class="text-center white-color">
+              <h3 class="mt-10 white-color font-600">Prototipagem e Teste</h3>
+              <p class="mb-0">
+                A criação de protótipos para testar a aderência da solução junto
+                ao público e o resultado para a empresa.Uma boa estratégia é a
+                criação de MVPs (mínimo produto viável). Assim, é possível criar
+                testes melhorando o produto de acordo com a demanda.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-2 col-xs-4 col-xs-4 line xs-mb-5 sm-mb-5">
+            <div class="icon-wrap color-1">
+              <div class="icon">
+                <i class="icon-mobile white-color font-30px"></i>
+              </div>
+            </div>
+            <div class="text-center white-color">
+              <h3 class="mt-10 white-color font-600">Implementação</h3>
+              <p class="mb-0">
+                Após o momento de prototipagem, você terá dados sobre a
+                performance da sua solução e informações sobre os ajustes
+                necessários. Depois de realizar as alterações necessárias, é
+                hora de implementar o que foi planejado e colocar no mercado.
+              </p>
+            </div>
           </div>
         </div>
-      
-    </div>
-  </section>
-  <!--== Process End ==-->  
+      </section>
+      <!--== Process End ==-->
 
-  <!--=== About Us Start ======-->
-  <section class="lg-section" id="about">
-    <div class="col-md-6 col-sm-4 bg-flex bg-flex-left ">
-      <iframe width="660" height="415" src="https://www.youtube.com/embed/jXlHnwrXgSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-            
-    </div>
-    <div class="container-fluid">
-      <div class="col-md-5 col-sm-7 col-md-offset-6 col-sm-offset-4 pl-80 pr-70">
-        <div class="section-title">
-          <h2 class="cardo-font default-color" data-backfont="News">Notícias</h2>
-          <h1>Fique por dentro <br><span class="text-bottom-line-sm"> da Vila!</span></h1>
+      <!--=== About Us Start ======-->
+      <section class="lg-section" id="about">
+        <div class="col-md-6 col-sm-4 bg-flex bg-flex-left">
+          <iframe
+            width="660"
+            height="415"
+            src="https://www.youtube.com/embed/jXlHnwrXgSc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
-        <p>Aqui nós vamos colocar as notícias da nossa Vila! Tudo o que acontece aqui, você ficará sabendo em primeira mão!
-          Acesse o link para saber mais!
-        </p>
-        <p class="mt-30"><a class="btn btn-lg btn-dark btn-square">Leia Mais</a></p>
+        <div class="container-fluid">
+          <div
+            class="col-md-5 col-sm-7 col-md-offset-6 col-sm-offset-4 pl-80 pr-70"
+          >
+            <div class="section-title">
+              <h2 class="cardo-font default-color" data-backfont="News">
+                Notícias
+              </h2>
+              <h1>
+                Fique por dentro <br /><span class="text-bottom-line-sm">
+                  da Vila!</span
+                >
+              </h1>
+            </div>
+            <p>
+              Aqui nós vamos colocar as notícias da nossa Vila! Tudo o que
+              acontece aqui, você ficará sabendo em primeira mão! Acesse o link
+              para saber mais!
+            </p>
+            <p class="mt-30">
+              <a class="btn btn-lg btn-dark btn-square">Leia Mais</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--=== About Us End ======-->
+
+      <div class="planet-x-wrap">
+        <div class="planet-x-left-2">
+          <img
+            src="assets/images/planet-x-left-2.png"
+            alt="mockup-4"
+            class="img-responsive"
+          />
+        </div>
       </div>
-    </div>
-  </section>
-  <!--=== About Us End ======-->
 
-  <div class="planet-x-wrap">
-    <div class="planet-x-left-2">
-      <img src="assets/images/planet-x-left-2.png" alt="mockup-4" class="img-responsive"/>
-    </div>
-  </div>
-
-  <!--== Counters Start ==-->
-  <section style="background:url(assets/images/background/stars-bg.png) center center no-repeat #24182e;">
-    <div class="container">
-    	  <div class="row">
-          <div class="col-md-3 col-sm-6 xs-mb-40 sm-mb-20 xs-ml-40">
-            <div class="counter-type-2 relative">
-             <i class="icon-hourglass default-color font-60px"></i>
-              <h3 class="display-block mt-0 mb-0 white-color"><span class="counter font-600">2</span></h3>
-              <h5 class="mt-0 font-600 white-color">Clientes</h5>
+      <!--== Counters Start ==-->
+      <section
+        style="
+          background: url(assets/images/background/stars-bg.png) center center
+            no-repeat #24182e;
+        "
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 xs-mb-40 sm-mb-20 xs-ml-40">
+              <div class="counter-type-2 relative">
+                <i class="icon-hourglass default-color font-60px"></i>
+                <h3 class="display-block mt-0 mb-0 white-color">
+                  <span class="counter font-600">2</span>
+                </h3>
+                <h5 class="mt-0 font-600 white-color">Clientes</h5>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-6 xs-mb-40 sm-mb-20 xs-ml-40">
-            <div class="counter-type-2 relative">
-             <i class="icon-lightbulb red-color font-60px"></i>
-              <h3 class="display-block mt-0 mb-0 white-color"><span class="counter font-600">3</span></h3>
-              <h5 class="mt-0 font-600 white-color">Parceiros</h5>
+            <div class="col-md-3 col-sm-6 xs-mb-40 sm-mb-20 xs-ml-40">
+              <div class="counter-type-2 relative">
+                <i class="icon-lightbulb red-color font-60px"></i>
+                <h3 class="display-block mt-0 mb-0 white-color">
+                  <span class="counter font-600">3</span>
+                </h3>
+                <h5 class="mt-0 font-600 white-color">Parceiros</h5>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-6 xs-mb-40 sm-mb-20 xs-ml-40">
-            <div class="counter-type-2 relative">
-             <i class="icon-wine blue-color font-60px"></i>
-              <h3 class="display-block mt-0 mb-0 white-color"><span class="counter font-600">6</span></h3>
-              <h5 class="mt-0 font-600 white-color">Eventos</h5>
+            <div class="col-md-3 col-sm-6 xs-mb-40 sm-mb-20 xs-ml-40">
+              <div class="counter-type-2 relative">
+                <i class="icon-wine blue-color font-60px"></i>
+                <h3 class="display-block mt-0 mb-0 white-color">
+                  <span class="counter font-600">6</span>
+                </h3>
+                <h5 class="mt-0 font-600 white-color">Eventos</h5>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-6 xs-mb-40 sm-mb-20 xs-ml-40">
-            <div class="counter-type-2 relative">
-             <i class="icon-hotairballoon orange-color font-60px"></i>
-              <h3 class="display-block mt-0 mb-0 white-color"><span class="counter font-600">33</span></h3>
-              <h5 class="mt-0 font-600 white-color">Posts</h5>
+            <div class="col-md-3 col-sm-6 xs-mb-40 sm-mb-20 xs-ml-40">
+              <div class="counter-type-2 relative">
+                <i class="icon-hotairballoon orange-color font-60px"></i>
+                <h3 class="display-block mt-0 mb-0 white-color">
+                  <span class="counter font-600">33</span>
+                </h3>
+                <h5 class="mt-0 font-600 white-color">Posts</h5>
+              </div>
             </div>
           </div>
         </div>
-    </div>
-  </section>
-  <!--== Counters End ==-->
- 
-  <!--== Pricing Table Start 
+      </section>
+      <!--== Counters End ==-->
+
+      <!--== Pricing Table Start 
  <section id="pricing">
     <div class="container">      
         <div class="col-sx-4">
@@ -592,234 +1054,417 @@
   </section>
  ==-->
 
-  <div class="planet-x-wrap">
-    <div class="planet-x-left">
-      <img src="assets/images/planet-x-left.png" alt="mockup-6" class="img-responsive"/>
-    </div>
-  </div>
-
-  <!--== Contact Start ==-->
-  <section class="dark-bg pt-0 pb-0 transition-none" id="contact">
-    <div class="col-md-6 col-sm-4 bg-flex bg-flex-right">
-      <div class="marginmap">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.310063740768!2d-45.4780213!3d-21.5738168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca928492de75a7%3A0x3ad17fb0fb012f5f!2sGrupo%20Unis%20-%20Cidade%20Universit%C3%A1ria!5e0!3m2!1spt-BR!2sbr!4v1654193282624!5m2!1spt-BR!2sbr" width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="col-md-5 col-sm-7 pt-70 pb-70 pl-70 pr-70 xs-pt-20 xs-pb-80">
-        <div class="section-title text-left">
-          <h2 class="cardo-font default-color" data-backfont="Contato">Contato</h2>
-          <h2 class="white-color">Mande sua mensagem, dúvida ou sugestão  <span class="text-bottom-line-sm">aqui!</span></h2>
+      <div class="planet-x-wrap">
+        <div class="planet-x-left">
+          <img
+            src="assets/images/planet-x-left.png"
+            alt="mockup-6"
+            class="img-responsive"
+          />
         </div>
-        <form name="contact-form" id="contact-form" action="php/contact.php" method="POST" class="contact-form-style-02">
-          <div class="messages"></div>
+      </div>
+
+      <!--== Contact Start ==-->
+      <section class="dark-bg pt-0 pb-0 transition-none" id="contact">
+        <div class="col-md-6 col-sm-4 bg-flex bg-flex-right">
+          <div class="marginmap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.310063740768!2d-45.4780213!3d-21.5738168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca928492de75a7%3A0x3ad17fb0fb012f5f!2sGrupo%20Unis%20-%20Cidade%20Universit%C3%A1ria!5e0!3m2!1spt-BR!2sbr!4v1654193282624!5m2!1spt-BR!2sbr"
+              width="700"
+              height="550"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div
+            class="col-md-5 col-sm-7 pt-70 pb-70 pl-70 pr-70 xs-pt-20 xs-pb-80"
+          >
+            <div class="section-title text-left">
+              <h2 class="cardo-font default-color" data-backfont="Contato">
+                Contato
+              </h2>
+              <h2 class="white-color">
+                Mande sua mensagem, dúvida ou sugestão
+                <span class="text-bottom-line-sm">aqui!</span>
+              </h2>
+            </div>
+            <form
+              name="contact-form"
+              id="contact-form"
+              action="php/contact.php"
+              method="POST"
+              class="contact-form-style-02"
+            >
+              <div class="messages"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group">
+                    <label for="name" class="white-color">Nome</label>
+                    <input
+                      type="text"
+                      name="name"
+                      class="md-input style-02"
+                      id="name"
+                      required
+                      data-error="Your Name is Required"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group">
+                    <label for="email" class="white-color">Email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      class="md-input style-02"
+                      id="email"
+                      required
+                      data-error="Please Enter Valid Email"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group">
+                    <label for="message" class="white-color">Mensagem</label>
+                    <textarea
+                      name="message"
+                      class="md-textarea style-02"
+                      id="message"
+                      rows="7"
+                      required
+                      data-error="Please, Leave us a message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="text-left mt-20">
+                    <button
+                      type="submit"
+                      name="submit"
+                      class="btn btn-lg btn-color btn-square remove-margin"
+                    >
+                      Enviar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--== Contact End ==-->
+
+      <!--== Clients Start ==-->
+      <div class="pt-120 pb-120 light-bg bg-cover">
+        <div class="container">
           <div class="row">
-            <div class="col-md-12 col-sm-12">
-              <div class="form-group">
-                <label for="name" class="white-color">Nome</label>
-                <input type="text" name="name" class="md-input style-02" id="name" required data-error="Your Name is Required">
+            <div class="section-title text-center margin">
+              <h1><span class="text-bottom-line-sm"> Parceiros </span></h1>
+            </div>
+            <div class="client-slider slick">
+              <div class="client-logo">
+                <img
+                  class="img-responsive"
+                  src="assets/images/clients/logo-1-dark.jpg"
+                  alt="01"
+                />
               </div>
-            </div>
-            <div class="col-md-12 col-sm-12">
-              <div class="form-group">
-                <label for="email" class="white-color">Email</label>
-                <input type="email" name="email" class="md-input style-02" id="email" required data-error="Please Enter Valid Email">
+              <div class="client-logo">
+                <img
+                  class="img-responsive"
+                  src="assets/images/clients/logo-2-dark.jpg"
+                  alt="02"
+                />
               </div>
-            </div>
-            <div class="col-md-12 col-sm-12">
-              <div class="form-group">
-                <label for="message" class="white-color">Mensagem</label>
-                <textarea name="message" class="md-textarea style-02" id="message" rows="7" required data-error="Please, Leave us a message"></textarea>
+              <div class="client-logo">
+                <img
+                  class="img-responsive"
+                  src="assets/images/clients/logo-3-dark.png"
+                  alt="03"
+                />
               </div>
-            </div>
-            <div class="col-md-12 col-sm-12">
-              <div class="text-left mt-20">
-                <button type="submit" name="submit" class="btn btn-lg btn-color btn-square remove-margin">Enviar </button>
+              <div class="client-logo">
+                <img
+                  class="img-responsive"
+                  src="assets/images/clients/logo-4-dark.png"
+                  alt="04"
+                />
               </div>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-  <!--== Contact End ==-->
-
-  <!--== Clients Start ==-->
-  <div class="pt-120 pb-120 light-bg bg-cover">
-    <div class="container">
-      <div class="row">
-        <div class="section-title text-center margin">
-        <h1><span class="text-bottom-line-sm"> Parceiros </span></h1></div>
-        <div class="client-slider slick">
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-1-dark.jpg" alt="01"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-2-dark.jpg" alt="02"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-3-dark.png" alt="03"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-4-dark.png" alt="04"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-5-dark.png" alt="05"/> </div>
-          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-6-dark.png" alt="06"/> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--== Clients End ==-->
-
-  <!--== Footer Start ==-->
-  <footer class="footer">
-    <div class="footer-main">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-3">
-            <div class="widget widget-text">
-              <div class="logo-footer">
-                <a href="index.html"><img class="img-responsive" src="assets/images/Logo5.png" alt=""></a>
+              <div class="client-logo">
+                <img
+                  class="img-responsive"
+                  src="assets/images/clients/logo-5-dark.png"
+                  alt="05"
+                />
               </div>
-              <p>Incubadora de Empresas e Ideias de Base Tecnológica </p>
-              <p class="mt-20 mb-0"><a href="#">+55 35-3219-5000</a></p>
-              <p class="mt-0"><a href="https://www.google.com/maps/place/Grupo+Unis+-+Cidade+Universit%C3%A1ria/@-21.5738118,-45.48021,17z/data=!3m1!4b1!4m5!3m4!1s0x94ca928492de75a7:0x3ad17fb0fb012f5f!8m2!3d-21.5738168!4d-45.4780213" target="_blank">Avenida Alzira Barra Gazzola, 650 - Aeroporto, Varginha-MG</a></p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="widget widget-text widget-links">
-              <h6 class="widget-title">Receba a nossa Newsletter</h6>
-              <p>Fique por dentro das novidades e eventos de inovação que estamos preparando
-                para você.              </p>
-              <form name="subscribe" id="subscribe" action="php/subscribe.php" method="POST" class="contact-form-style-02">
-                <div class="form-group mt-20 mb-0">
-                  <label class="sr-only" for="name">Name</label>
-                  <input type="email" name="email" class="md-input style-02" id="email-2" placeholder="Digite o seu melhor e-mail" required data-error="Your Name is Required">
-                </div>
-                <div class="text-left mt-10">
-                  <button type="submit" name="submit" class="btn btn-lg btn-color btn-square remove-margin">Inscreva-se</button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="widget widget-links xs-mt-20 xs-mb-20 sm-mt-20 sm-mb-20">
-              <h5 class="widget-title">Links Rápidos</h5>
-              <ul>
-                <li><a href="https://portal.unis.edu.br/home">Grupo UNIS</a></li>
-                <li><a href="https://cesullab.com.br/">CesulLab Varginha</a></li>
-                <li><a href="https://www.sebrae.com.br/sites/PortalSebrae/ufs/mg?codUf=14">Sebrae</a></li>
-                <li><a href="http://avaliacao.unis.edu.br/redir/">Portal Acadêmico</a></li>
-                <li><a href="https://portal.unis.edu.br/ead">UnisEAD</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="widget widget-links xs-mt-20 xs-mb-20 sm-mt-20 sm-mb-20">
-              <h5 class="widget-title">Instagram</h5>
-              <ul class="footer-gallery" id="footer-gallery">
-              <li>
-                <div class="footer-gallery-box">
-                  <div class="skin-overlay"></div>
-                  <img src="assets/images/gallery/01.jpg" alt="">
-                  <div class="zoom-wrap text-center">
-                    <ul class="footer-gallery-zoom">
-                      <li><a class="magnific-lightbox" href="assets/images/gallery/01-lg.jpg"><i class="icofont icofont-search"></i></a>
-                        <a href="https://www.instagram.com/p/CVS3vSQs5ax">Link</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="footer-gallery-box">
-                  <div class="skin-overlay"></div>
-                  <img src="assets/images/gallery/02.jpg" alt="">
-                  <div class="zoom-wrap text-center">
-                    <ul class="footer-gallery-zoom">
-                      <li><a class="magnific-lightbox" href="assets/images/gallery/02-lg.jpg"><i class="icofont icofont-search"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="footer-gallery-box">
-                  <div class="skin-overlay"></div>
-                  <img src="assets/images/gallery/03.jpg" alt="">
-                  <div class="zoom-wrap text-center">
-                    <ul class="footer-gallery-zoom">
-                      <li><a class="magnific-lightbox" href="assets/images/gallery/03-lg.jpg"><i class="icofont icofont-search"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="footer-gallery-box">
-                  <div class="skin-overlay"></div>
-                  <img src="assets/images/gallery/04.jpg" alt="">
-                  <div class="zoom-wrap text-center">
-                        <ul class="footer-gallery-zoom">
-                          <li><a class="magnific-lightbox" href="assets/images/gallery/04-lg.jpg"><i class="icofont icofont-search"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="footer-gallery-box">
-                      <div class="skin-overlay"></div>
-                      <img src="assets/images/gallery/05.jpg" alt="">
-                      <div class="zoom-wrap text-center">
-                        <ul class="footer-gallery-zoom">
-                          <li><a class="magnific-lightbox" href="assets/images/gallery/05-lg.jpg"><i class="icofont icofont-search"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="footer-gallery-box">
-                      <div class="skin-overlay"></div>
-                      <img src="assets/images/gallery/06.jpg" alt="">
-                      <div class="zoom-wrap text-center">
-                        <ul class="footer-gallery-zoom">
-                          <li><a class="magnific-lightbox" href="assets/images/gallery/06-lg.jpg"><i class="icofont icofont-search"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+              <div class="client-logo">
+                <img
+                  class="img-responsive"
+                  src="assets/images/clients/logo-6-dark.png"
+                  alt="06"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="copy-right text-center">© 2022 - Powered by UNIS. All rights reserved</div>
+      <!--== Clients End ==-->
+
+      <!--== Footer Start ==-->
+      <footer class="footer">
+        <div class="footer-main">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-3">
+                <div class="widget widget-text">
+                  <div class="logo-footer">
+                    <a href="index.html"
+                      ><img
+                        class="img-responsive"
+                        src="assets/images/Logo5.png"
+                        alt=""
+                    /></a>
+                  </div>
+                  <p>Incubadora de Empresas e Ideias de Base Tecnológica</p>
+                  <p class="mt-20 mb-0"><a href="#">+55 35-3219-5000</a></p>
+                  <p class="mt-0">
+                    <a
+                      href="https://www.google.com/maps/place/Grupo+Unis+-+Cidade+Universit%C3%A1ria/@-21.5738118,-45.48021,17z/data=!3m1!4b1!4m5!3m4!1s0x94ca928492de75a7:0x3ad17fb0fb012f5f!8m2!3d-21.5738168!4d-45.4780213"
+                      target="_blank"
+                      >Avenida Alzira Barra Gazzola, 650 - Aeroporto,
+                      Varginha-MG</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div class="widget widget-text widget-links">
+                  <h6 class="widget-title">Receba a nossa Newsletter</h6>
+                  <p>
+                    Fique por dentro das novidades e eventos de inovação que
+                    estamos preparando para você.
+                  </p>
+                  <form
+                    name="subscribe"
+                    id="subscribe"
+                    action="php/subscribe.php"
+                    method="POST"
+                    class="contact-form-style-02"
+                  >
+                    <div class="form-group mt-20 mb-0">
+                      <label class="sr-only" for="name">Name</label>
+                      <input
+                        type="email"
+                        name="email"
+                        class="md-input style-02"
+                        id="email-2"
+                        placeholder="Digite o seu melhor e-mail"
+                        required
+                        data-error="Your Name is Required"
+                      />
+                    </div>
+                    <div class="text-left mt-10">
+                      <button
+                        type="submit"
+                        name="submit"
+                        class="btn btn-lg btn-color btn-square remove-margin"
+                      >
+                        Inscreva-se
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div
+                  class="widget widget-links xs-mt-20 xs-mb-20 sm-mt-20 sm-mb-20"
+                >
+                  <h5 class="widget-title">Links Rápidos</h5>
+                  <ul>
+                    <li>
+                      <a href="https://portal.unis.edu.br/home">Grupo UNIS</a>
+                    </li>
+                    <li>
+                      <a href="https://cesullab.com.br/">CesulLab Varginha</a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.sebrae.com.br/sites/PortalSebrae/ufs/mg?codUf=14"
+                        >Sebrae</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://avaliacao.unis.edu.br/redir/"
+                        >Portal Acadêmico</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://portal.unis.edu.br/ead">UnisEAD</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div
+                  class="widget widget-links xs-mt-20 xs-mb-20 sm-mt-20 sm-mb-20"
+                >
+                  <h5 class="widget-title">Instagram</h5>
+                  <ul class="footer-gallery" id="footer-gallery">
+                    <li>
+                      <div class="footer-gallery-box">
+                        <div class="skin-overlay"></div>
+                        <img src="assets/images/gallery/01.jpg" alt="" />
+                        <div class="zoom-wrap text-center">
+                          <ul class="footer-gallery-zoom">
+                            <li>
+                              <a
+                                class="magnific-lightbox"
+                                href="assets/images/gallery/01-lg.jpg"
+                                ><i class="icofont icofont-search"></i
+                              ></a>
+                              <a href="https://www.instagram.com/p/CVS3vSQs5ax"
+                                >Link</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="footer-gallery-box">
+                        <div class="skin-overlay"></div>
+                        <img src="assets/images/gallery/02.jpg" alt="" />
+                        <div class="zoom-wrap text-center">
+                          <ul class="footer-gallery-zoom">
+                            <li>
+                              <a
+                                class="magnific-lightbox"
+                                href="assets/images/gallery/02-lg.jpg"
+                                ><i class="icofont icofont-search"></i
+                              ></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="footer-gallery-box">
+                        <div class="skin-overlay"></div>
+                        <img src="assets/images/gallery/03.jpg" alt="" />
+                        <div class="zoom-wrap text-center">
+                          <ul class="footer-gallery-zoom">
+                            <li>
+                              <a
+                                class="magnific-lightbox"
+                                href="assets/images/gallery/03-lg.jpg"
+                                ><i class="icofont icofont-search"></i
+                              ></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="footer-gallery-box">
+                        <div class="skin-overlay"></div>
+                        <img src="assets/images/gallery/04.jpg" alt="" />
+                        <div class="zoom-wrap text-center">
+                          <ul class="footer-gallery-zoom">
+                            <li>
+                              <a
+                                class="magnific-lightbox"
+                                href="assets/images/gallery/04-lg.jpg"
+                                ><i class="icofont icofont-search"></i
+                              ></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="footer-gallery-box">
+                        <div class="skin-overlay"></div>
+                        <img src="assets/images/gallery/05.jpg" alt="" />
+                        <div class="zoom-wrap text-center">
+                          <ul class="footer-gallery-zoom">
+                            <li>
+                              <a
+                                class="magnific-lightbox"
+                                href="assets/images/gallery/05-lg.jpg"
+                                ><i class="icofont icofont-search"></i
+                              ></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="footer-gallery-box">
+                        <div class="skin-overlay"></div>
+                        <img src="assets/images/gallery/06.jpg" alt="" />
+                        <div class="zoom-wrap text-center">
+                          <ul class="footer-gallery-zoom">
+                            <li>
+                              <a
+                                class="magnific-lightbox"
+                                href="assets/images/gallery/06-lg.jpg"
+                                ><i class="icofont icofont-search"></i
+                              ></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="copy-right text-center">
+                  © 2022 - Powered by UNIS. All rights reserved
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--== Footer End ==-->
+
+      <!--== Go to Top  ==-->
+      <a href="javascript:" id="return-to-top"
+        ><i class="icofont icofont-arrow-up"></i
+      ></a>
+      <!--== Go to Top End ==-->
     </div>
-  </footer>
-  <!--== Footer End ==-->
+    <!--== Wrapper End ==-->
 
-  <!--== Go to Top  ==-->
-  <a href="javascript:" id="return-to-top"><i class="icofont icofont-arrow-up"></i></a>
-  <!--== Go to Top End ==-->
+    <!--== Javascript Plugins ==-->
 
-</div>
-<!--== Wrapper End ==-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/master.js"></script>
 
-<!--== Javascript Plugins ==-->
-
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/master.js"></script>
-
-<!-- Revolution js Files -->
-<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="revolution/js/revolution.extension.actions.min.js"></script>
-<script src="revolution/js/revolution.extension.carousel.min.js"></script>
-<script src="revolution/js/revolution.extension.kenburn.min.js"></script>
-<script src="revolution/js/revolution.extension.layeranimation.min.js"></script>
-<script src="revolution/js/revolution.extension.migration.min.js"></script>
-<script src="revolution/js/revolution.extension.navigation.min.js"></script>
-<script src="revolution/js/revolution.extension.parallax.min.js"></script>
-<script src="revolution/js/revolution.extension.slideanims.min.js"></script>
-<script src="revolution/js/revolution.extension.video.min.js"></script>
-<!--== Javascript Plugins End ==-->
-</body>
+    <!-- Revolution js Files -->
+    <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="revolution/js/revolution.extension.actions.min.js"></script>
+    <script src="revolution/js/revolution.extension.carousel.min.js"></script>
+    <script src="revolution/js/revolution.extension.kenburn.min.js"></script>
+    <script src="revolution/js/revolution.extension.layeranimation.min.js"></script>
+    <script src="revolution/js/revolution.extension.migration.min.js"></script>
+    <script src="revolution/js/revolution.extension.navigation.min.js"></script>
+    <script src="revolution/js/revolution.extension.parallax.min.js"></script>
+    <script src="revolution/js/revolution.extension.slideanims.min.js"></script>
+    <script src="revolution/js/revolution.extension.video.min.js"></script>
+    <!--== Javascript Plugins End ==-->
+  </body>
 </html>
