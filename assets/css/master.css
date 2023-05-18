@@ -4871,13 +4871,6 @@ img.mfp-img {
   width: 30%;
   height: auto !important;
 }
-.palestra p {
-  text-transform: uppercase;
-  font-size: 16px;
-  line-height: 1.7;
-  font-weight: 700;
-  color: #fff;
-}
 .team-member-img img {
   width: 100%;
 }
@@ -6119,6 +6112,18 @@ section.dark-block .default-slider .slick-dots li button {
   background-color: #fff;
   padding: 0px 50px 0px 0px;
   text-align: center;
+}
+.testimonial-item .testimonial-content .testimonial-color1 p{
+   color: #4aad4c;
+   font-weight: 700;
+}
+.testimonial-item .testimonial-content .testimonial-color2 p{
+   color: #e95b29;
+   font-weight: 700;
+}
+.testimonial-item .testimonial-content .testimonial-color3 p{
+   color: #2f358c;
+   font-weight: 700;
 }
 .testimonial-item .testimonial-content img {
   width: 500px;
