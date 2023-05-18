@@ -4850,18 +4850,31 @@ img.mfp-img {
   position: relative;
   overflow: hidden;
 }
+.sapiensclub {
+  overflow: hidden;
+  margin: 0 50px 0;
+}
+.sapiensclubtitle {
+  margin: 150px 50px 0;
+}
+.sapiensclub img {
+  position: absolute;
+  width: 25%;
+}
 .palestra {
-  margin: 0 150px;
+  padding: 40px 200px 40px;
+  opacity: 3;
 }
 .palestra img {
   position: relative;
+  margin: 0 50px 0;
   width: 30%;
   height: auto !important;
 }
 .palestra p {
   text-transform: uppercase;
-  font-size: 12px;
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 1.7;
   font-weight: 700;
   color: #fff;
 }
@@ -6104,14 +6117,11 @@ section.dark-block .default-slider .slick-dots li button {
 }
 .testimonial-item .testimonial-content {
   background-color: #fff;
-  padding: 40px;
-  margin: 50px auto;
+  padding: 0px 50px 0px 0px;
   text-align: center;
 }
 .testimonial-item .testimonial-content img {
-  width: 120px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 500px;
   border-radius: 100px;
 }
 .testimonial .slick-prev {
