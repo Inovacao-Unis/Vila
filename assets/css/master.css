@@ -6110,24 +6110,27 @@ section.dark-block .default-slider .slick-dots li button {
 }
 .testimonial-item .testimonial-content {
   background-color: #fff;
-  padding: 0px 50px 0px 0px;
+  padding: 20px 20px 20px 20px;
   text-align: center;
+  justify-content: center;
 }
-.testimonial-item .testimonial-content .testimonial-color1 p{
-   color: #4aad4c;
-   font-weight: 700;
+.testimonial-item .testimonial-content .testimonial-color1 p {
+  color: #4aad4c;
+  font-weight: 700;
 }
-.testimonial-item .testimonial-content .testimonial-color2 p{
-   color: #e95b29;
-   font-weight: 700;
+.testimonial-item .testimonial-content .testimonial-color2 p {
+  color: #e95b29;
+  font-weight: 700;
 }
-.testimonial-item .testimonial-content .testimonial-color3 p{
-   color: #2f358c;
-   font-weight: 700;
+.testimonial-item .testimonial-content .testimonial-color3 p {
+  color: #2f358c;
+  font-weight: 700;
 }
 .testimonial-item .testimonial-content img {
-  width: 500px;
-  border-radius: 100px;
+  width: auto;
+  border-radius: 50px;
+  text-align: center;
+  justify-content: center;
 }
 .testimonial .slick-prev {
   left: -80px;
